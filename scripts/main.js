@@ -15,15 +15,16 @@ $(function() {
              "Don't really give a fuck"
          ],
          template: [
-             "Big @color @animal",
-             "Silly @animal with @color fur"
+             "@race @class",
          ],
-         animal: [
-             "dog",
-             "cat",
-             "rabbit"
+         class: [
+             "B.E.A.S.T.",
+             "Fury",
+             "Scoundrel",
+             "Nanoseer",
+             "Engineer",
          ],
-         color: [
+         race: [
              "red",
              "blue",
              "green",
