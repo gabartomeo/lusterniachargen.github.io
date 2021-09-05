@@ -6,16 +6,16 @@ $(function() {
     WTF.init({
 
          heading: [
-             "It's a fucking",
-             "Check this shit out, a fucking"
+             "It's a flakking",
+             "Check this daka out, a flakking"
          ],
          response: [
-             "Already fucking seen one",
-             "Give me a-fucking-nother one",
-             "Don't really give a fuck"
+             "Already flakking seen one",
+             "Give me a-flakking-nother one",
+             "Don't really give a daka"
          ],
          template: [
-             "@race @class",
+             "@race @class from @faction",
          ],
          class: [
              "B.E.A.S.T.",
@@ -25,10 +25,23 @@ $(function() {
              "Engineer",
          ],
          race: [
-             "red",
-             "blue",
-             "green",
-             "yellow"
+             "Amaian",
+             "Decheeran",
+             "Elgan",
+             "Jin",
+             "Krona",
+             "Human",
+             "Nath-el",
+             "Nusriza",
+             "Ry'nari",
+             "Shen",
+             "Tukkav",
+             "W'hoorn"
+         ],
+        faction: [
+             "Song Dominion",
+             "Scatterhome",
+             "the Celestine Ascendancy"
          ]
      });
 
