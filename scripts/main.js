@@ -41,7 +41,7 @@ $(function() {
              "W'hoorn"
          ],
         faction: [
-             "Song Dominion",
+             "the Song Dominion",
              "Scatterhome",
              "the Celestine Ascendancy"
          ],
