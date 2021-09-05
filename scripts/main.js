@@ -73,7 +73,7 @@ $(function() {
              "become an incompetent Bounty Hunter",
              "lead their faction as a benevolent dictator",
              "lead their faction as a corrupt despot",
-             "lead their faction with respect to all its citizens"
+             "lead their faction with respect to all its citizens",
              "spread their hatred for the Fatar",
              "share their love for zippa with the world",
              "have a world-famous band",
