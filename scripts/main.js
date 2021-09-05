@@ -16,7 +16,7 @@ $(function() {
              "Don't really give a daka about this, one more."
          ],
          template: [
-             "@adjective @gender @race @class from @faction, with a talent for @talent and aspirations to @aspiration",
+             "@adjective @gender @race @class from @faction, with a talent for @talent and aspirations to @aspiration when they grow up.",
          ],
          class: [
              "B.E.A.S.T.",
