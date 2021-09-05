@@ -7,15 +7,16 @@ $(function() {
 
          heading: [
              "It's a flakking",
-             "Check this daka out, a flakking"
+             "Check this daka out, a flakking",
+             "Hey kithlicker, let me tell you about this",
          ],
          response: [
-             "Already flakking seen one",
-             "Give me a-flakking-nother one",
-             "Don't really give a daka"
+             "Already flakking seen one of those, try again.",
+             "Give me a-flakking-nother one!",
+             "Don't really give a daka about this, one more."
          ],
          template: [
-             "@gender @race @class from @faction, with a talent for @talent",
+             "@adjective @gender @race @class from @faction, with a talent for @talent.",
          ],
          class: [
              "B.E.A.S.T.",
@@ -54,6 +55,14 @@ $(function() {
              "manufacturing",
              "xenohunting"
         ],
+        adjective: [
+             "lame",
+             "energetic",
+             "bumbling",
+             "eccentric",
+             "intelligent",
+             "genius",
+             "lazy"
      });
 
     // Populate using a JSON file
