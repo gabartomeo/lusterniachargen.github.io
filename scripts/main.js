@@ -9,15 +9,20 @@ $(function() {
              "It's a flakking",
              "Check this daka out, a flakking",
              "Hey kithlicker, let me tell you about this",
+             "You ever hear of the",
+             "Betcha never heard about a"
          ],
          response: [
              "Already flakking seen one of those, try again.",
              "Give me a-flakking-nother one!",
-             "Don't really give a daka about this, one more."
+             "Don't really give a daka about this, one more.",
+             "Intriguing, but it's not for me.",
+             "Give it another go-round."
          ],
          template: [
              "@adjective @gender @race @class from @faction, with a talent for @talent and aspirations to @aspiration when they grow up.",
-             "@gender @race @class in @faction. They are @adjective, with a penchant for @talent and the desire to @aspiration someday."
+             "@gender @race @class in @faction. They are @adjective, with a penchant for @talent and the desire to @aspiration someday.",
+             "@class from @faction. They're a @adjective @gender @race, and they want to @aspiration in the future. They're good at @talent, too."
          ],
          class: [
              "B.E.A.S.T.",
