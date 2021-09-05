@@ -17,6 +17,7 @@ $(function() {
          ],
          template: [
              "@adjective @gender @race @class from @faction, with a talent for @talent and aspirations to @aspiration when they grow up.",
+             "@gender @race @class in @faction. They are @adjective, with a penchant for @talent and the desire to @aspiration someday."
          ],
          class: [
              "B.E.A.S.T.",
