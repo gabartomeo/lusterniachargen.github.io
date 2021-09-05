@@ -15,7 +15,7 @@ $(function() {
              "Don't really give a daka"
          ],
          template: [
-             "@race @class from @faction",
+             "@gender @race @class from @faction, with a talent for @talent",
          ],
          class: [
              "B.E.A.S.T.",
@@ -42,7 +42,18 @@ $(function() {
              "Song Dominion",
              "Scatterhome",
              "the Celestine Ascendancy"
-         ]
+         ],
+        gender: [
+             "male",
+             "female",
+             "non-binary"
+        ],
+        talent: [
+             "captaincy",
+             "hacking",
+             "manufacturing",
+             "xenohunting"
+        ],
      });
 
     // Populate using a JSON file
