@@ -63,6 +63,7 @@ $(function() {
              "intelligent",
              "genius",
              "lazy"
+         ],
      });
 
     // Populate using a JSON file
