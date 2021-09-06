@@ -9,8 +9,6 @@ $(function() {
              "Get this, it's a flakking",
              "Check this daka out, a flakking",
              "Hey kithlicker, let me tell you about this",
-             "You ever hear of the",
-             "Betcha never heard about a",
              "Be on the lookout for a",
              "Yo, voidsucker. My pal is a"
          ],
@@ -19,7 +17,8 @@ $(function() {
              "Give me a-flakking-nother one!",
              "Don't really give a daka about this, one more.",
              "Intriguing, but it's not for me.",
-             "Give it another go-round."
+             "Give it another go-round.",
+             "Who cares? Hit me with another."
          ],
          template: [
              "@adjective and @adjective @gender @race @class from @faction, with a talent for @talent and aspirations to @aspiration when they grow up.",
