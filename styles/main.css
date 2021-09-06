@@ -44,7 +44,7 @@ header h1 {
 #output {
 	font-size: 48px;
 	line-height: 48px;
-	margin: 0 60px;
+	margin: 0 0 0 60px;
 }
 
 #output.animate {
@@ -64,7 +64,7 @@ noscript {
 
 #output dd {
 	display: block;
-	margin: 0 60px;
+	margin: 0 0 0 60px;
 	color: blue;
 }
 
