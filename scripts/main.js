@@ -6,11 +6,13 @@ $(function() {
     WTF.init({
 
          heading: [
-             "It's a flakking",
+             "Get this, it's a flakking",
              "Check this daka out, a flakking",
              "Hey kithlicker, let me tell you about this",
              "You ever hear of the",
-             "Betcha never heard about a"
+             "Betcha never heard about a",
+             "Be on the lookout for a",
+             "Yo, voidsucker. My pal is a"
          ],
          response: [
              "Already flakking seen one of those, try again.",
@@ -20,9 +22,9 @@ $(function() {
              "Give it another go-round."
          ],
          template: [
-             "@adjective @gender @race @class from @faction, with a talent for @talent and aspirations to @aspiration when they grow up.",
-             "@gender @race @class in @faction. They are @adjective, with a penchant for @talent and the desire to @aspiration someday.",
-             "@class from @faction. They're a @adjective @gender @race, and they want to @aspiration in the future. They're good at @talent, too."
+             "@adjective and @adjective @gender @race @class from @faction, with a talent for @talent and aspirations to @aspiration when they grow up.",
+             "@gender @race @class in @faction. They are @adjective and @adjective, with a penchant for @talent and the desire to @aspiration someday.",
+             "@class from @faction. They're a @adjective @gender @race, real @adjective, and they want to @aspiration in the future. They're good at @talent, too."
          ],
          class: [
              "B.E.A.S.T.",
@@ -88,7 +90,14 @@ $(function() {
              "persuasive",
              "charming",
              "suave",
-             "unlucky"
+             "unlucky",
+             "resourceful",
+             "charismatic",
+             "traditional",
+             "conservative",
+             "free-spirited",
+             "lovable",
+             "wise"
          ],
         aspiration: [
              "become a famed Bounty Hunter",
@@ -99,7 +108,10 @@ $(function() {
              "spread their hatred for the Fatar",
              "share their love for zippa with the world",
              "have a world-famous band",
-             "stare into the abyss"
+             "stare into the abyss",
+             "develop a biohazard that wipes out entire planets",
+             "destroy entire civilizations with their powerful armadas",
+             "found a peaceful commune on the outskirts of Litharge"
         ]
      });
 
