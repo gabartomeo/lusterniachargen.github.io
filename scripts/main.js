@@ -33,38 +33,44 @@ $(function() {
              "Engineer",
          ],
          race: [
-             "Amaian",
-             "Decheeran",
-             "Elgan",
-             "Jin",
-             "Krona",
+             "Arborean",
+             "Arqeshi",
+             "Atavian",
+             "Djeirani",
+             "Dwarf",
+             "Grecht",
+             "Gnome",
+             "Grook",
              "Human",
-             "Nath-el",
-             "Nusriza",
-             "Ry'nari",
-             "Shen",
-             "Tukkav",
-             "W'hoorn"
+             "Horkval",
+             "Imp",
+             "Kelki",
+             "Kobold",
+             "Minotaur",
+             "Mhun",
+             "Nazetu",
+             "Ogre",
+             "Orc",
+             "Rajamala",
+             "Troll",
+             "Tsol'aa",
+             "Xoran"
          ],
         faction: [
-             "the Song Dominion",
-             "Scatterhome",
-             "the Celestine Ascendancy"
+             "Enorian",
+             "Duiran",
+             "Spinesreach",
+             "Bloodloch",
+             "rogue"
          ],
         gender: [
              "male",
              "female",
              "non-binary"
         ],
-        talent: [
-             "captaincy",
-             "hacking",
-             "manufacturing",
-             "xenohunting",
-             "xenozoology",
-             "collecting snowglobes",
-             "exploring the galaxy",
-        ],
+//        talent: [
+//             ""
+//        ],
         adjective: [
              "lame",
              "energetic",
@@ -98,20 +104,9 @@ $(function() {
              "lovable",
              "wise"
          ],
-        aspiration: [
-             "become a famed Bounty Hunter",
-             "become an incompetent Bounty Hunter",
-             "lead their faction as a benevolent dictator",
-             "lead their faction as a corrupt despot",
-             "lead their faction with respect for all its citizens",
-             "spread their hatred for the Fatar",
-             "share their love for zippa with the world",
-             "have a world-famous band",
-             "stare into the abyss",
-             "develop a biohazard that wipes out entire planets",
-             "destroy entire civilizations with their powerful armadas",
-             "found a peaceful commune on the outskirts of Litharge"
-        ]
+//        aspiration: [
+//             ""
+//        ]
      });
 
     // Populate using a JSON file
