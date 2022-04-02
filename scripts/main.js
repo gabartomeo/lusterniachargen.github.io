@@ -5,32 +5,44 @@ $(function() {
 
     WTF.init({
 
-         heading: [
-             "Get this, it's a flakking",
-             "Check this daka out, a flakking",
-             "Hey kithlicker, let me tell you about this",
-             "Be on the lookout for a",
-             "Yo, voidsucker. My pal is a"
-         ],
-         response: [
-             "Already flakking seen one of those, try again.",
-             "Give me a-flakking-nother one!",
-             "Don't really give a daka about this, one more.",
-             "Intriguing, but it's not for me.",
-             "Give it another go-round.",
-             "Who cares? Hit me with another."
-         ],
+//         heading: [
+//             ""
+//         ],
+//         response: [
+//               ""
+//         ],
          template: [
              "@adjective and @adjective @gender @race @class from @faction, with a talent for @talent and aspirations to @aspiration when they grow up.",
              "@gender @race @class in @faction. They are @adjective and @adjective, with a penchant for @talent and the desire to @aspiration someday.",
              "@class from @faction. They're a @adjective @gender @race, real @adjective, and they want to @aspiration in the future. They're good at @talent, too."
          ],
-         class: [
-             "B.E.A.S.T.",
-             "Fury",
-             "Scoundrel",
-             "Nanoseer",
-             "Engineer",
+         class_spirit: [
+             "Luminary",
+             "Zealot",
+             "Ascendril",
+             "Sentinel",
+             "Templar",
+             "Shaman",
+             "Warden",
+             "Oneiromancer",
+             "Monk",
+             "Wayfarer",
+             "Syssin",
+             "Shapeshifter"
+         ],
+         class_shadow: [
+             "Indorani",
+             "Praenomen",
+             "Archivist",
+             "Sciomancer",
+             "Carnifex",
+             "Teradrim",
+             "Revenant",
+             "Earthcaller",
+             "Monk",
+             "Wayfarer",
+             "Syssin",
+             "Shapeshifter"
          ],
          race: [
              "Arborean",
@@ -56,11 +68,14 @@ $(function() {
              "Tsol'aa",
              "Xoran"
          ],
-        faction: [
+        faction_spirit: [
              "Enorian",
              "Duiran",
-             "Spinesreach",
+             "rogue"
+         ],
+        faction_shadow: [
              "Bloodloch",
+             "Spinesreach",
              "rogue"
          ],
         gender: [
