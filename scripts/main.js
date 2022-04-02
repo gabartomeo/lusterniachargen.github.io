@@ -5,12 +5,12 @@ $(function() {
 
     WTF.init({
 
-//         heading: [
-//             ""
-//         ],
-//         response: [
-//               ""
-//         ],
+         heading: [
+             "New character:"
+         ],
+         response: [
+            "Let's do another."
+         ],
          template: [
              "@adjective and @adjective @gender @race @class from @faction, with a talent for @talent and aspirations to @aspiration when they grow up.",
              "@gender @race @class in @faction. They are @adjective and @adjective, with a penchant for @talent and the desire to @aspiration someday.",
