@@ -12,9 +12,12 @@ $(function() {
             "Let's do another."
          ],
          template: [
-             "@adjective and @adjective @gender @race @class from @faction, with a talent for @talent and aspirations to @aspiration when they grow up.",
-             "@gender @race @class in @faction. They are @adjective and @adjective, with a penchant for @talent and the desire to @aspiration someday.",
-             "@class from @faction. They're a @adjective @gender @race, real @adjective, and they want to @aspiration in the future. They're good at @talent, too."
+             "@adjective and @adjective @gender @race @class_spirit from @faction_spirit, with a talent for @talent and aspirations to @aspiration when they grow up.",
+             "@adjective and @adjective @gender @race @class_shadow from @faction_shadow, with a talent for @talent and aspirations to @aspiration when they grow up.",
+             "@gender @race @class_spirit in @faction_spirit. They are @adjective and @adjective, with a penchant for @talent and the desire to @aspiration someday.",
+             "@gender @race @class_shadow in @faction_shadow. They are @adjective and @adjective, with a penchant for @talent and the desire to @aspiration someday.",
+             "@class_spirit from @faction_spirit. They're a @adjective @gender @race, real @adjective, and they want to @aspiration in the future. They're good at @talent, too."
+             "@class_shadow from @faction_shadow. They're a @adjective @gender @race, real @adjective, and they want to @aspiration in the future. They're good at @talent, too."
          ],
          class_spirit: [
              "Luminary",
