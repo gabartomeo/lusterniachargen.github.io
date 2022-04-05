@@ -15,14 +15,14 @@ $(function() {
              "Need another idea? Try again!"
          ],
          template: [
-             "@adjective and @adjective @gender @race @class_spirit from @faction_spirit, with a talent for @talent and aspirations to @aspiration when they grow up. They follow the tenets of @god_spirit.",
-             "@adjective and @adjective @gender @race @class_shadow from @faction_shadow, with a talent for @talent and aspirations to @aspiration when they grow up. They follow the tenets of @god_shadow.",
-             "@gender @race @class_spirit in @faction_spirit. They are @adjective and @adjective, with a penchant for @talent and the desire to @aspiration someday. Though not overly religious, they follow @god_spirit.",
-             "@gender @race @class_shadow in @faction_shadow. They are @adjective and @adjective, with a penchant for @talent and the desire to @aspiration someday. Though not overly religious, they follow @god_shadow.",
-             "@class_spirit from @faction_spirit, a follower of @god_spirit. They're a @adjective @gender @race, real @adjective, and they want to @aspiration in the future. They're good at @talent, too.",
-             "@class_shadow from @faction_shadow, a follower of @god_shadow. They're a @adjective @gender @race, real @adjective, and they want to @aspiration in the future. They're good at @talent, too.",
-             "Rogue @class_spirit, a @gender @race, known for being @adjective and @adjective. They aspire to @aspiration someday, and are talented in @talent. If asked, they follow the ideals of @god_spirit most closely.",
-             "Rogue @class_shadow, a @gender @race, known for being @adjective and @adjective. They aspire to @aspiration someday, and are talented in @talent. If asked, they follow the ideals of @god_shadow most closely."
+             "@adjective and @adjective @gender @race @class_spirit from @faction_spirit, with a talent for @talent and aspirations to @aspiration_spirit when they grow up. They follow the tenets of @god_spirit.",
+             "@adjective and @adjective @gender @race @class_shadow from @faction_shadow, with a talent for @talent and aspirations to @aspiration_shadow when they grow up. They follow the tenets of @god_shadow.",
+             "@gender @race @class_spirit in @faction_spirit. They are @adjective and @adjective, with a penchant for @talent and the desire to @aspiration_spirit someday. Though not overly religious, they follow @god_spirit.",
+             "@gender @race @class_shadow in @faction_shadow. They are @adjective and @adjective, with a penchant for @talent and the desire to @aspiration_shadow someday. Though not overly religious, they follow @god_shadow.",
+             "@class_spirit from @faction_spirit, a follower of @god_spirit. They're a @adjective @gender @race, real @adjective, and they want to @aspiration_spirit in the future. They're good at @talent, too.",
+             "@class_shadow from @faction_shadow, a follower of @god_shadow. They're a @adjective @gender @race, real @adjective, and they want to @aspiration_shadow in the future. They're good at @talent, too.",
+             "Rogue @class_spirit, a @gender @race, known for being @adjective and @adjective. They aspire to @aspiration_spirit someday, and are talented in @talent. If asked, they follow the ideals of @god_spirit most closely.",
+             "Rogue @class_shadow, a @gender @race, known for being @adjective and @adjective. They aspire to @aspiration_shadow someday, and are talented in @talent. If asked, they follow the ideals of @god_shadow most closely."
          ],
          class_spirit: [
              "Luminary",
@@ -157,9 +157,20 @@ $(function() {
              "lovable",
              "wise"
          ],
-//        aspiration: [
-//             ""
-//        ]
+        aspiration_shadow: [
+             "extinguish the Great Flame",
+             "grow flowers inside a lava flow",
+             "pet every ithkitten in the Ithmias",
+             "live through the ecstasy of godstongue",
+             "recreate Balach Shipbreaker's naval armada",
+        ],
+          aspiration_spirit: [
+             "pet every ithkitten in the Ithmias",
+             "grow flowers inside a lava flow",
+             "earn a pat on the head from Abhorash",
+             "live through the ecstasy of godstongue",
+             "recreate Balach Shipbreaker's naval armada", 
+         ],
      });
 
     // Populate using a JSON file
