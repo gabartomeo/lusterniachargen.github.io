@@ -168,6 +168,8 @@ $(function() {
              "be ranked among the top 10 explorers of all time",
              "catch one of the biggest fish ever recorded",
              "become a Master Slayer in the Sect of Blades",
+             "build a homestead on Albedos",
+             "found a new guild",
         ],
           aspiration_spirit: [
              "pet every ithkitten in the Ithmias",
@@ -178,6 +180,8 @@ $(function() {
              "be ranked among the top 10 explorers of all time",
              "catch one of the biggest fish ever recorded",
              "become a Master Slayer in the Sect of Blades",
+             "build a homestead on Albedos",
+             "found a new guild",
          ],
      });
 
