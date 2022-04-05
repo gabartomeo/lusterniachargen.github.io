@@ -86,9 +86,23 @@ $(function() {
              "female",
              "non-binary"
         ],
-//        talent: [
-//             ""
-//        ],
+        talent: [
+             "barding",
+             "bombcrafting",
+             "fletching",
+             "floristry",
+             "fumology",
+             "linguistics",
+             "luthier",
+             "papercrafting",
+             "perfumery",
+             "pyrotechnics",
+             "tambourier",
+             "taxidermy",
+             "fishing",
+             "farming",
+             "mining"
+        ],
         adjective: [
              "lame",
              "energetic",
