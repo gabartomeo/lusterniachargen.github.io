@@ -10,7 +10,6 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
 
 body {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	color: gold;
 	text-transform: uppercase;
 	height: 100%;
 	background-image: url("../images/background.jpg");
@@ -32,7 +31,7 @@ body {
 
 header, article {
 	font-weight: 800;
-	color: #000;
+	color: gold;
 }
 
 header {
@@ -74,7 +73,7 @@ noscript {
 #generate {
 	text-decoration: none;
 	font-size: 20px;
-	color: #000;
+	color: gold;
 }
 
 #generate:hover {
@@ -107,7 +106,7 @@ footer {
 	text-align: right;
 	line-height: 16px;
 	font-size: 12px;
-	color: #666;
+	color: gold;
 	margin: 12px 24px;
 	bottom: 0;
 	right: 0;
@@ -115,7 +114,7 @@ footer {
 
 footer a {
 	text-decoration: none;
-	color: #000;
+	color: gold;
 }
 
 footer a:hover {
