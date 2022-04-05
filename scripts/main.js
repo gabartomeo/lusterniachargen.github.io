@@ -97,6 +97,7 @@ $(function() {
             "Omei",
             "Slyphe",
             "Lexadhra",
+            "one of the less controversial Albedi Gods",
         ],
         god_shadow: [
             "Chakrasul",
@@ -106,6 +107,7 @@ $(function() {
             "Bamathis",
             "Severn",
             "Lexadhra",
+            "a God of the Albedi Pantheon",
         ],
         talent: [
              "barding",
