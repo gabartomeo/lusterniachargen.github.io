@@ -165,13 +165,19 @@ $(function() {
              "pet every ithkitten in the Ithmias",
              "live through the ecstasy of godstongue",
              "recreate Balach Shipbreaker's naval armada",
+             "be ranked among the top 10 explorers of all time",
+             "catch one of the biggest fish ever recorded",
+             "become a Master Slayer in the Sect of Blades",
         ],
           aspiration_spirit: [
              "pet every ithkitten in the Ithmias",
              "grow flowers inside a lava flow",
              "earn a pat on the head from Abhorash",
              "live through the ecstasy of godstongue",
-             "recreate Balach Shipbreaker's naval armada", 
+             "recreate Balach Shipbreaker's naval armada",
+             "be ranked among the top 10 explorers of all time",
+             "catch one of the biggest fish ever recorded",
+             "become a Master Slayer in the Sect of Blades",
          ],
      });
 
