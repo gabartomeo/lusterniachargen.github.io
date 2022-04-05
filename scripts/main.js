@@ -18,6 +18,8 @@ $(function() {
              "@gender @race @class_shadow in @faction_shadow. They are @adjective and @adjective, with a penchant for @talent and the desire to @aspiration someday.",
              "@class_spirit from @faction_spirit. They're a @adjective @gender @race, real @adjective, and they want to @aspiration in the future. They're good at @talent, too.",
              "@class_shadow from @faction_shadow. They're a @adjective @gender @race, real @adjective, and they want to @aspiration in the future. They're good at @talent, too."
+             "Rogue @class_spirit @gender @race, known for being @adjective and @adjective. They aspire to @aspiration someday, and are talented in @talent.",
+             "Rogue @class_shadow @gender @race, known for being @adjective and @adjective. They aspire to @aspiration someday, and are talented in @talent."
          ],
          class_spirit: [
              "Luminary",
@@ -73,13 +75,11 @@ $(function() {
          ],
         faction_spirit: [
              "Enorian",
-             "Duiran",
-             "rogue"
+             "Duiran"
          ],
         faction_shadow: [
              "Bloodloch",
-             "Spinesreach",
-             "rogue"
+             "Spinesreach"
          ],
         gender: [
              "male",
