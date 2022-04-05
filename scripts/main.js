@@ -6,10 +6,13 @@ $(function() {
     WTF.init({
 
          heading: [
-             "New character:"
+             "The newest soul in Sapience is a",
+             "Look out for a new adventurer, a",
          ],
          response: [
-            "Let's do another."
+             "Not interested? Try another.",
+             "Doesn't interest you? Roll another one!",
+             "Need another idea? Try again!"
          ],
          template: [
              "@adjective and @adjective @gender @race @class_spirit from @faction_spirit, with a talent for @talent and aspirations to @aspiration when they grow up.",
