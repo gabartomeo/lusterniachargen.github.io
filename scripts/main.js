@@ -87,7 +87,8 @@ $(function() {
         gender: [
              "male",
              "female",
-             "non-binary"
+             "non-binary",
+             "genderless"
         ],
         god_spirit: [
             "Damariel",
