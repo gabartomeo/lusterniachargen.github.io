@@ -262,7 +262,12 @@ $(function() {
              "optimistic",
              "brooding",
              "contrarian",
-             "relaxed"
+             "relaxed",
+             "selfless",
+             "friendly",
+             "approachable",
+             "romantic",
+             "cautious"
          ],
         aspiration: [
              "becoming a famous author",
