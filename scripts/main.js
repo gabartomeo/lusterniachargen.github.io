@@ -223,7 +223,8 @@ $(function() {
              "theologian",
              "cook",
              "dancer",
-             "linguist"
+             "linguist",
+             "explorer"
         ],
          adjective: [
              "lame",
