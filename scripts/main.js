@@ -6,7 +6,7 @@ $(function() {
     WTF.init({
 
          heading: [
-             "The newest soul in Sapience is a",
+             "The newest soul in the Basin of Life is a",
              "Look out for a new adventurer, a",
          ],
          response: [
@@ -15,119 +15,219 @@ $(function() {
              "Need another idea? Try again!"
          ],
          template: [
-             "@adjective and @adjective @gender @race @class_spirit from @faction_spirit, with a talent for @talent and aspirations to @aspiration_spirit when they grow up. They follow the tenets of @god_spirit.",
-             "@adjective and @adjective @gender @race @class_shadow from @faction_shadow, with a talent for @talent and aspirations to @aspiration_shadow when they grow up. They follow the tenets of @god_shadow.",
-             "@gender @race @class_spirit in @faction_spirit. They are @adjective and @adjective, with a penchant for @talent and the desire to @aspiration_spirit someday. Though not overly religious, they follow @god_spirit.",
-             "@gender @race @class_shadow in @faction_shadow. They are @adjective and @adjective, with a penchant for @talent and the desire to @aspiration_shadow someday. Though not overly religious, they follow @god_shadow.",
-             "@class_spirit from @faction_spirit, a follower of @god_spirit. They're a @adjective @gender @race, real @adjective, and they want to @aspiration_spirit in the future. They're good at @talent, too.",
-             "@class_shadow from @faction_shadow, a follower of @god_shadow. They're a @adjective @gender @race, real @adjective, and they want to @aspiration_shadow in the future. They're good at @talent, too.",
-             "Rogue @class_spirit, a @gender @race, known for being @adjective and @adjective. They aspire to @aspiration_spirit someday, and are talented in @talent. If asked, they follow the ideals of @god_spirit most closely.",
-             "Rogue @class_shadow, a @gender @race, known for being @adjective and @adjective. They aspire to @aspiration_shadow someday, and are talented in @talent. If asked, they follow the ideals of @god_shadow most closely."
+             "@adjective and @adjective @gender @race @serenwilde_class of the @serenwilde_guild. The only being they devote themselves to more than @serenwilde_spirit is @god. They are a self-identified @job with dreams of @aspiration.",
+             "@adjective and @adjective @gender @race @celest_class of the @celest_guild. The only being they devote themselves to more than @celest_spirit is @god. They are a self-identified @job with dreams of @aspiration.",
+             "@adjective and @adjective @gender @race @magnagora_class of the @magnagora_guild. The only being they devote themselves to more than @magnagora_spirit is @god. They are a self-identified @job with dreams of @aspiration.",
+             "@adjective and @adjective @gender @race @glomdoring_class of the @glomdoring_guild. The only being they devote themselves to more than @glomdoring_spirit is @god. They are a self-identified @job with dreams of @aspiration.",
+             "@adjective and @adjective @gender @race @hallifax_class of the @hallifax_guild. The only being they devote themselves to more than @hallifax_spirit is @god. They are a self-identified @job with dreams of @aspiration.",
+             "@adjective and @adjective @gender @race @gaudiguch_class of the @gaudiguch_guild. The only being they devote themselves to more than @gaudiguch_spirit is @god. They are a self-identified @job with dreams of @aspiration."
          ],
-         class_spirit: [
-             "Luminary",
-             "Zealot",
-             "Ascendril",
-             "Sentinel",
+         serenwilde_class: [
+             "Moondancer",
+             "Hartstone",
+             "Serenguard",
+             "Spiritsinger",
+             "Shofangi"
+         ],
+         celest_class: [
+             "Celestine",
+             "Aquamancer",
+             "Paladin",
+             "Cantor",
+             "Tahtetso"
+         ],
+         magnagora_class: [
+             "Nihilist",
+             "Geomancer",
+             "Ur'Guard",
+             "Cacophony",
+             "Ninjakari"
+         ],
+         glomdoring_class: [
+             "Shadowdancer",
+             "Blacktalon",
+             "Ebonguard",
+             "Harbinger",
+             "Nekotai"
+         ],
+         gaudiguch_class: [
+             "Illuminati",
+             "Pyromancer",
              "Templar",
-             "Shaman",
-             "Warden",
-             "Oneiromancer",
-             "Monk",
-             "Wayfarer",
-             "Syssin",
-             "Shapeshifter"
+             "Minstrel",
+             "Nunchaku"
          ],
-         class_shadow: [
-             "Indorani",
-             "Praenomen",
-             "Archivist",
-             "Sciomancer",
-             "Carnifex",
-             "Teradrim",
-             "Revenant",
-             "Earthcaller",
-             "Monk",
-             "Wayfarer",
-             "Syssin",
-             "Shapeshifter"
+         hallifax_class: [
+             "Aeromancer",
+             "Sentinel",
+             "Institute",
+             "Symphonium",
+             "Tessenchi"
+         ],
+         serenwilde_guild: [
+             "Wodewoses",
+             "Sowers of the Last Seed",
+             "Listeners at the Veil"
+         ],
+         celest_guild: [
+             "Archons of Dawning Hope",
+             "Magisterium of the Holy Father",
+             "Sanctifiers of Saint Loathys"
+         ],
+         magnagora_guild: [
+             "Infernal Mandate",
+             "Iniquitous Society",
+             "Heralds of Dark Fates"
+         ],
+         glomdoring_guild: [
+             "The Swarm",
+             "Auguries of the Dark Heart",
+             "The Thornwatch"
+         ],
+         gaudiguch_guild: [
+             "Goon Squad",
+             "The Revelry",
+             "Seekers of Illumination"
+         ],
+         hallifax_guild: [
+             "Adherents of Adom",
+             "Grand Aerie for Harmonious Refinement",
+             "Skylark Consortium for Collaborative Advancement"
          ],
          race: [
-             "Arborean",
-             "Arqeshi",
-             "Atavian",
-             "Djeirani",
+             "Aslaran",
+             "Dracnari",
              "Dwarf",
-             "Grecht",
+             "Elfen",
+             "Faeling",
+             "Fink",
+             "Furrikin",
              "Gnome",
-             "Grook",
              "Human",
-             "Horkval",
-             "Imp",
-             "Kelki",
-             "Kobold",
-             "Minotaur",
-             "Mhun",
-             "Nazetu",
-             "Ogre",
-             "Orc",
-             "Rajamala",
-             "Troll",
-             "Tsol'aa",
-             "Xoran"
+             "Igasho",
+             "Illithoid",
+             "Kephera",
+             "Krokani",
+             "Loboshigaru",
+             "Lucidian",
+             "Merian",
+             "Mugwump",
+             "Nagasith",
+             "Orclach",
+             "Sileni",
+             "Tae'dae",
+             "Taurian",
+             "Trill",
+             "Viscanti",
+             "Wildewood",
+             "Wyrdenwood"
          ],
-        faction_spirit: [
-             "Enorian",
-             "Duiran"
+         serenwilde_spirit: [
+             "Mother Moon",
+             "Brother Hart",
+             "Luna, First of the Maidens",
+             "Selene, First of the Mothers",
+             "Albion, First of the Crones",
+             "Old Man Bull"
          ],
-        faction_shadow: [
-             "Bloodloch",
-             "Spinesreach"
-        ],
+         glomdoring_spirit: [
+             "Mother Night",
+             "Brother Crow",
+             "Gwyllgi, the Dog of Darkness",
+             "Glumki, King of the Redcaps",
+             "Lhiannan, Queen of the Slaugh",
+             "Grandmother Scorpion"
+         ],
+         celest_spirit: [
+             "Elohora, Lady of the Eternal Light",
+             "Japhiel, Illuminator of Merciful Justice",
+             "Methrenton, Crusader of the Holy Flame",
+             "Raziela, the Loving Radiance",
+             "Shakiniel, Defender of Dawning Hope",
+             "Kintyre, the Lady of the Rip Tide",
+             "Loch, the Lord of the Low Tide",
+             "Murlough, the Lord of the Red Tide",
+             "Skerriagh, the Lord of the High Tide"
+         ],
+         magnagora_spirit: [
+             "Ashtorath, the Duke of Inescapable Damnation",
+             "Baalphegar, the Prince of the Dark Fates",
+             "Gorgulu, the Devourer of Souls",
+             "Luciphage, the Supreme Master of Nil",
+             "Nifilhema, the Queen of Insufferable Cruelty",
+             "Klaymech, Lord of the Soiled Earth",
+             "Bhalegu, Lord of the Blasted Sand",
+             "Brom, Lord of the Pocked Boulders",
+             "Gravynia, Lady of the Cracked Stone"
+         ],
+         hallifax_spirit: [
+             "Zeforos, Lord of the North Wind",
+             "Pashi, Lady of the South Wind",
+             "Vasha, Lady of the East Wind",
+             "Haelor, Lord of the West Wind",
+         ],
+         gaudiguch_spirit: [
+             "Agni, Lady of the Burning Embers",
+             "Ignis, Lord of the Howling Fire",
+             "Pyrphoros, Lord of the Ravenous Inferno",
+             "Tejas, Lady of Blossoming Fires"
+         ],
         gender: [
              "male",
              "female",
-             "non-binary",
-             "genderless"
+             "non-binary"
         ],
-        god_spirit: [
-            "Damariel",
-            "Dhar",
-            "Ethne",
-            "Haern",
-            "Omei",
-            "Slyphe",
-            "Lexadhra",
-            "one of the less controversial Albedi Gods",
+        god: [
+             "Carakhan, Sculptor of Waves ",
+             "Drocilla, the Enchantress",
+             "Ein, the Restless ",
+             "Lisaera, the Silver Goddess",
+             "Malmydia, the Chiurgeon",
+             "Maylea, Bloom of Serenity",
+             "Nocht, the Silent ",
+             "Terentia, the Even Bladed",
+             "Viravain, Lady of the Thorns",
+             "Zvoltz, the Architect",
+             "Auseklis, Old Man of the Woods",
+             "Charune, the Horned One",
+             "Crumkane, Lord of Epicurean Delights",
+             "Czixi, the Welkin",
+             "Darvellan, the Navigator",
+             "Fain, of the Red Masque",
+             "Hoaracle, the Oak Whacher",
+             "Isune, the Aesthete",
+             "Jadice, the Frost Queen",
+             "Kalikai, the Crimson Eye",
+             "Lantra, the Empyreal",
+             "Manteekan, the Nightmare",
+             "Morgfyre, the Legion",
+             "Mysrai, the Thousandfold",
+             "Raezon, the Forbidden",
+             "Roark Libertas",
+             "Shikari, the Predator",
+             "Thax, the Machine",
+             "Valtreth, Majesty of the Dawn",
+             "Weiwae, the Golden Heart",
+             "Yomoigu, the Pyresmith"
         ],
-        god_shadow: [
-            "Chakrasul",
-            "Iosyne",
-            "Ivoln",
-            "Tanixalthas",
-            "Bamathis",
-            "Severn",
-            "Lexadhra",
-            "a God of the Albedi Pantheon",
+         job: [
+             "author",
+             "poet",
+             "playwright",
+             "stage director",
+             "fighter",
+             "politician",
+             "artist",
+             "scholar",
+             "anthropologist",
+             "biologist",
+             "merchant",
+             "theologian",
+             "cook",
+             "dancer",
+             "linguist"
         ],
-        talent: [
-             "barding",
-             "bombcrafting",
-             "fletching",
-             "floristry",
-             "fumology",
-             "linguistics",
-             "luthier",
-             "papercrafting",
-             "perfumery",
-             "pyrotechnics",
-             "tambourier",
-             "taxidermy",
-             "fishing",
-             "farming",
-             "mining"
-        ],
-        adjective: [
+         adjective: [
              "lame",
              "energetic",
              "bumbling",
@@ -158,32 +258,25 @@ $(function() {
              "conservative",
              "free-spirited",
              "lovable",
-             "wise"
+             "wise",
+             "naive",
+             "innocent",
+             "optimistic",
+             "brooding",
+             "contrarian",
+             "relaxed"
          ],
-        aspiration_shadow: [
-             "extinguish the Great Flame",
-             "grow flowers inside a lava flow",
-             "pet every ithkitten in the Ithmias",
-             "live through the ecstasy of godstongue",
-             "recreate Balach Shipbreaker's naval armada",
-             "be ranked among the top 10 explorers of all time",
-             "catch one of the biggest fish ever recorded",
-             "become a Master Slayer in the Sect of Blades",
-             "build a homestead on Albedos",
-             "found a new guild",
+        aspiration: [
+             "becoming a famous author",
+             "being the strongest in all of Lusternia",
+             "having wealth beyond their wildest dreams",
+             "learning the language of the Gods",
+             "becoming an Avatar",
+             "having their name spread far and wide",
+             "seeing unity in the Basin",
+             "seeing the downfall of a specific culture",
+             "bringing forth a golden age for their culture"
         ],
-          aspiration_spirit: [
-             "pet every ithkitten in the Ithmias",
-             "grow flowers inside a lava flow",
-             "earn a pat on the head from Abhorash",
-             "live through the ecstasy of godstongue",
-             "recreate Balach Shipbreaker's naval armada",
-             "be ranked among the top 10 explorers of all time",
-             "catch one of the biggest fish ever recorded",
-             "become a Master Slayer in the Sect of Blades",
-             "build a homestead on Albedos",
-             "found a new guild",
-         ],
      });
 
     // Populate using a JSON file
