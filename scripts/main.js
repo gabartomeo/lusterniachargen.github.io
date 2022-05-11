@@ -176,13 +176,13 @@ $(function() {
              "non-binary"
         ],
         god: [
-             "Carakhan, Sculptor of Waves ",
+             "Carakhan, Sculptor of Waves",
              "Drocilla, the Enchantress",
-             "Ein, the Restless ",
+             "Ein, the Restless",
              "Lisaera, the Silver Goddess",
              "Malmydia, the Chiurgeon",
              "Maylea, Bloom of Serenity",
-             "Nocht, the Silent ",
+             "Nocht, the Silent",
              "Terentia, the Even Bladed",
              "Viravain, Lady of the Thorns",
              "Zvoltz, the Architect",
