@@ -118,9 +118,7 @@ $(function() {
              "Tae'dae",
              "Taurian",
              "Trill",
-             "Viscanti",
-             "Wildewood",
-             "Wyrdenwood"
+             "Viscanti"
          ],
          serenwilde_spirit: [
              "Mother Moon",
@@ -275,7 +273,8 @@ $(function() {
              "having their name spread far and wide",
              "seeing unity in the Basin",
              "seeing the downfall of a specific culture",
-             "bringing forth a golden age for their culture"
+             "bringing forth a golden age for their culture",
+             "their artwork being featured in every gallery the Basin has to offer"
         ],
      });
 
